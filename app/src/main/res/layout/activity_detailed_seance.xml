@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".detailedSeance">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seance"
+                android:textAlignment="center"
+                android:id="@+id/seance_name"
+                android:textColor="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="30sp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intitule :"
+                android:textColor="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intitule"
+                android:id="@+id/tvIntitule"
+                android:textColor="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:paddingLeft="50dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Durée totale :"
+                android:textColor="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duree totale"
+                android:id="@+id/tvDuree"
+                android:textColor="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:paddingTop="10dp"
+                android:textSize="18sp"
+                android:paddingLeft="50dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enseignant :"
+                android:textColor="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enseignant"
+                android:id="@+id/tvEnseignant"
+                android:textColor="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:paddingTop="10dp"
+                android:textSize="18sp"
+                android:paddingLeft="50dp"
+                ></TextView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
