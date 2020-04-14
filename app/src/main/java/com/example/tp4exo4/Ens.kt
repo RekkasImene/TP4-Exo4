@@ -9,15 +9,15 @@ class Ens {
     private val  Telephone:String
 
 
-    constructor(Name: String,name:String,s:String,d:String,k:String,l:String){
+    constructor(Name: String,name:String,adr:String,age:String,dip:String,tel:String){
         //code
         this.Name= Name
 
         this.Prenom=name
-        this.Adresse=s
-        this.Age=d
-        this.Diplome=k
-        this.Telephone=l
+        this.Adresse=adr
+        this.Age=age
+        this.Diplome=dip
+        this.Telephone=tel
     }
 
     fun getName(): String {
